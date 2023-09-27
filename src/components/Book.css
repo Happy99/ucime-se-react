@@ -1,4 +1,19 @@
+.book {
+    border: 1px solid #222222;
+    padding: 1em;
+}
+
 .book h2.main-heading {
     color: #222222;
     font-size: 1.2em;
+    text-align: center;
+}
+
+.book .main-image {
+    display: flex;
+    margin: 0 auto;
+}
+
+.book .main-annotation {
+    text-align: justify;
 }
